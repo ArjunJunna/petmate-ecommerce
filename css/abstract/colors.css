@@ -1,0 +1,12 @@
+:root{
+    --primary-color: #fa643f;
+    --border-color:#d5d5d5;
+    --btn-color:#fff0ec;
+    --slider-bg-color:#d3d3d3;
+    --white-color:#ffffff;
+    --black-color:#000000;
+    --card-badge-bg-color:#fa643fad;
+    --icon-color:grey;
+    --footer-bg-color:rgba(0, 0, 0, 0.863);
+    --header-bg-color:rgb(255, 255, 254);
+}
