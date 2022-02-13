@@ -37,7 +37,7 @@
 .footer-container .footer-h3 {
   margin: 1.5rem 0;
   color: var(--white-color);
-  font-family: 'Roboto Mono', monospace;
+  
   font-weight: 400;
 }
 
@@ -58,11 +58,11 @@
   padding: 3rem;
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto Mono', monospace;
+  
 }
 
 .list {
-  font-family: 'Roboto Mono', monospace;
+  
   padding: 3rem;
 }
 

@@ -27,7 +27,7 @@
 }
 
 .sidebar-h5 {
-  font-family: 'Roboto Mono', monospace;
+  
   font-size: 1.8rem;
   margin-bottom: 0.6rem;
 }
@@ -46,7 +46,7 @@
 .sidebar-block {
   width: 100%;
   margin: 2rem 0 0;
-  font-family: 'Roboto Mono', monospace;
+
 }
 
 .slider {
