@@ -27,7 +27,6 @@
 }
 
 .sidebar-h5 {
-  
   font-size: 1.8rem;
   margin-bottom: 0.6rem;
 }
@@ -40,13 +39,14 @@
   color: var(--btn-color);
   cursor: pointer;
 }
+
 .sidebar--btn:hover {
   transform: scale(1.1);
 }
+
 .sidebar-block {
   width: 100%;
   margin: 2rem 0 0;
-
 }
 
 .slider {
@@ -68,16 +68,16 @@
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 15px;
-  height: 15px;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   background: var(--primary-color);
   cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 15px;
-  height: 15px;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   background: var(--primary-color);
   cursor: pointer;
