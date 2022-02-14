@@ -1,0 +1,102 @@
+main {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.component {
+  margin: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+}
+
+.component:hover {
+  border: 1px solid var(--primary-color);
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  height: 30rem;
+  border-radius: 0.6rem;
+}
+.card-header {
+  position: relative;
+  height: 65%;
+}
+.card-details {
+  height: 20%;
+}
+.card-footer {
+  height: 15%;
+}
+
+.card-header .card-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.6rem;
+}
+
+.card-header .card-badge {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background-color: var(--card-badge-bg-color);
+  color: var(--white-color);
+  font-size: 1.2rem;
+  padding: 2px;
+  font-weight: 700;
+  border-radius: 0.2rem;
+}
+
+.card__container .card-details {
+  padding: 0.6rem;
+}
+
+.card-details .detail-heading {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  
+}
+
+.card-details .detail-subheading {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  
+}
+
+.dashed {
+  text-decoration: line-through;
+  color: var(--black-color);
+  font-size: 1.1rem;
+}
+
+.card__container .card-footer {
+  padding: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-segment {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.card-icons .bi {
+  margin: 0 1rem;
+  font-size: 1.8rem;
+  color: var(--icon-color);
+}
+
+.bi:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
