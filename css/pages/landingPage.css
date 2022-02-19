@@ -40,7 +40,7 @@ footer {
 }
 
 .hero__container .hero-btn:hover {
-  background-color: rgb(209, 80, 41);
+  background-color: var(--primary-bg-color);
   transform: scale(1.1);
 }
 
