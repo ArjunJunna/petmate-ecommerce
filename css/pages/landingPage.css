@@ -12,9 +12,11 @@
 header {
   grid-area: header;
 }
+
 main {
   grid-area: content;
 }
+
 footer {
   grid-area: footer;
 }
@@ -28,6 +30,7 @@ footer {
   overflow: hidden;
   position: relative;
 }
+
 .hero__container .hero-btn {
   position: absolute;
   bottom: 10rem;
@@ -47,6 +50,7 @@ footer {
   text-align: center;
   font-weight: 600;
 }
+
 .hero__categories {
   display: flex;
   justify-content: space-around;
@@ -86,4 +90,3 @@ footer {
   font-weight: 900;
   color: var(--primary-color);
 }
-
