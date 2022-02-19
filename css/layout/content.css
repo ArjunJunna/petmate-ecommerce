@@ -8,6 +8,11 @@ main {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.products-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .component {
   margin: 1rem;
   border: 1px solid var(--border-color);

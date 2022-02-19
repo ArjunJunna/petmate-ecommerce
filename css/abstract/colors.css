@@ -1,15 +1,17 @@
-:root{
-    --primary-color: #fa643f;
-    --border-color:#d5d5d5;
-    --btn-color:#fff0ec;
-    --slider-bg-color:#d3d3d3;
-    --white-color:#ffffff;
-    --black-color:#000000;
-    --card-badge-bg-color:#fa643fad;
-    --footer-bg-color:rgba(0, 0, 0, 0.863);
-    --header-bg-color:rgb(255, 255, 254);
-    --form-bg-color: #f5f3f3;
-    --form-btn-color:#741802;
-    --grey-color:grey;
-    --link-color:rgb(18, 166, 224);
+:root {
+  --primary-color: rgb(250, 100, 63);
+  --primary-bg-color:rgb(209, 80, 41);
+  --border-color: rgb(213, 213, 213);
+  --btn-color: rgb(255, 240, 236);
+  --slider-bg-color: rgb(211, 211, 211);
+  --white-color: rgb(255, 255, 255);
+  --black-color: rgb(0,0,0);
+  --card-badge-bg-color: rgba(235, 71, 21, 0.651);
+  --footer-bg-color: rgba(0, 0, 0, 0.863);
+  --header-bg-color: rgb(255, 255, 254);
+  --form-bg-color: rgb(245, 243, 243);
+  --form-btn-color: rgb(116, 24, 2);
+  --grey-color: rgb(128,128,128);
+  --link-color: rgb(18, 166, 224);
+  --yellow-color:rgb(238, 255, 0);
 }
