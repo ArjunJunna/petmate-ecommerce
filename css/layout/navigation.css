@@ -57,7 +57,7 @@ nav {
 
 .sub__wrapper .search__container i {
   font-size: 1.5rem;
-  color: var(--icon-color);
+  color: var(--grey-color);
 }
 
 .header__links {
@@ -81,7 +81,7 @@ nav {
 
 .header__links .icon-badge {
   font-size: 2.2rem;
-  color: var(--icon-color);
+  color: var(--grey-color);
 }
 .header__links .badge-primary {
   color: var(--white-color);

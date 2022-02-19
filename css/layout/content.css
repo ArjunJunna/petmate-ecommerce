@@ -93,7 +93,7 @@ main {
 .card-icons .bi {
   margin: 0 1rem;
   font-size: 1.8rem;
-  color: var(--icon-color);
+  color: var(--grey-color);
 }
 
 .bi:hover {
