@@ -24,29 +24,20 @@ main {
   border: 1px solid var(--primary-color);
 }
 
-.card__container {
-  display: flex;
-  flex-direction: column;
-  width: 22rem;
-  height: 30rem;
-  border-radius: 0.6rem;
-}
 .card-header {
   position: relative;
-  height: 65%;
 }
+/*
 .card-details {
   height: 20%;
+  
 }
 .card-footer {
   height: 15%;
+ 
 }
+*/
 
-.card-header .card-image {
-  height: 100%;
-  width: 100%;
-  border-radius: 0.6rem;
-}
 
 .card-header .card-badge {
   position: absolute;
@@ -67,13 +58,11 @@ main {
 .card-details .detail-heading {
   font-size: 1.5rem;
   margin: 1rem 0;
-  
 }
 
 .card-details .detail-subheading {
   font-size: 1.1rem;
   margin: 1rem 0;
-  
 }
 
 .dashed {
@@ -104,4 +93,24 @@ main {
 .bi:hover {
   color: var(--primary-color);
   cursor: pointer;
+}
+
+/***********************/
+
+.card__container {
+  display: flex;
+  width: 22rem;
+  height:fix-content;
+  border-radius: 0.6rem;
+}
+
+.card__container.vertical {
+  min-width: 18rem;
+  flex-direction: column;
+}
+
+.card__container.vertical .card-image {
+  height: 18rem;
+  width: 100%;
+  border-radius: 0.6rem;
 }
