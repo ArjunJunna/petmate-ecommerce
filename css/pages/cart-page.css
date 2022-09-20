@@ -205,4 +205,60 @@
   font-size: 2rem;
   color: var(--grey-color);
 }
+.dismissh {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  color: var(--grey-color);
+}
 
+/*******************************/
+
+.card__container.horizontal {
+  display: grid;
+  grid-template-columns: 16rem 2fr;
+  justify-content: center;
+  /*align-items: center;*/
+  gap: 1rem;
+  /*background-color: lightblue;*/
+  height: 20rem;
+  width: 60rem;
+  position: relative;
+  border: 1px solid var(--border-color);
+  background-color: var(--card-bg-color);
+  border-radius: 0;
+}
+
+.horizontal .card-image {
+  height: 100%;
+  width: 100%;
+}
+
+.card__container.horizontal .card-header {
+  width: 100%;
+  background-color: rgb(85, 91, 94);
+  height: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.horizontal .card-footer {
+  display: block;
+}
+
+.card-footer .card__button {
+  display: block;
+  margin: 1rem 0 1rem 3.2rem;
+  width: 80%;
+  padding: 0.8rem 1rem;
+  border-radius: 0.6rem;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--btn-color);
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+}
